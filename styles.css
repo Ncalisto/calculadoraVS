@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/93/3b/9d/933b9d0b56974575ccfd18bc3c130e15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+  
+  #container{
+    position: relative;
+    background: #6e84a993;
+    width: 450px;
+    height: 630px;
+    margin:  20px auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    
+  
+  }
+  
+  #calc{
+    width: 350px;
+    height: 550px;
+    background: #edf0f3;
+    margin: 0 auto;
+    top: 38px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 16px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  #display{
+    position: relative;
+    height: 110px;
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 2em;
+    text-align: right;
+  }
+  
+  #keyboard{
+    height: 400px;
+    margin: 14px;
+  }
+  
+  .operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  
+  .empty{
+    background: #edf0f3;
+  }
+  
+  .number, .operator{
+    cursor: pointer;
+    background: #d2d8de;
+  }
+  .number:active, .operator:active{
+    transform: translateY(2px);
+  }
+  
+  .operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+  }
+  
+  button:nth-child(4){
+  font-size: 1.2em;
+  background: #bc99dd;
+  
+  }
+  
+  
+  button:nth-child(8){
+    font-size: 1.2em;
+    background: #4bd1dd;
+  }
+  
+  button:nth-child(12){
+    font-size: 1.2em;
+    background: #ffd11a;
+  }
+  
+  button:nth-child(16){
+    font-size: 1.2em;
+    background: #f3805c;
+  }
+  
+  button:nth-child(20){
+    font-size: 1.2em;
+    background: #94d344;
+    }
+  
+  
+  #Footer {
+    position: relative
+    left: 35%;
+    right: 35%;
+    justify-content: center;
+    align-items: center;
+    bottom: 2vh;
+    text-align: center;
+    }
+    
+    #text-footer {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.8em;
+      
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    a:hover {
+      color: #f3805c;
+    }
